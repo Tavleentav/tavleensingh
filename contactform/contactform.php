@@ -14,7 +14,5 @@ if (isset($_SERVER['HTTP_ORIGIN']) && $_SERVER['HTTP_ORIGIN'] != '') {
     }
   }
 }
-var_dump(json_decode($_POST["str"]));
-
-//mail($to,$subject,$message,$headers);
+echo "OK";
 ?>
